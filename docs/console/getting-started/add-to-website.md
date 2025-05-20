@@ -64,5 +64,6 @@ Add this code just before the closing `</body>` tag of your website:
 
 ## Next Steps
 
-- [Learn about advanced features](../features/)
-- [Set up handover to human agents](../features/handover)
+- For more customization options, see our [features overview](../../console/features/overview) documentation.
+- [Learn about advanced features](../../console/features/overview)
+- [Set up handover to human agents](../../console/features/handover)

@@ -33,4 +33,4 @@ Follow these steps to create and configure your AI support agent.
 ## Next Steps
 
 - [Test your AI Agent](./test-your-ai-agent)
-- [Learn about advanced features](../features/)
+- [Learn about advanced features](../../console/features/overview)
