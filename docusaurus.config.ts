@@ -77,13 +77,23 @@ const config: Config = {
         {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
+          label: 'Repo Tutorial',
           position: 'left',
-          label: 'Getting Started',
         },
-        {to: '/blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/facebook/docusaurus',
-          label: 'GitHub',
+          type: 'docSidebar',
+          sidebarId: 'consoleSidebar',
+          label: 'Console',
+          position: 'left',
+        },
+        {
+          to: '/blog', 
+          label: 'Blog', 
+          position: 'left'
+        },
+        {
+          href: 'https://supportium.ai',
+          label: 'Supportium',
           position: 'right',
         },
       ],
@@ -95,8 +105,12 @@ const config: Config = {
           title: 'Docs',
           items: [
             {
-              label: 'Getting Started',
-              to: '/docs/intro',
+              label: 'Repo Tutorial',
+              to: '/docs/repo-tutorial',
+            },
+            {
+              label: 'Console',
+              to: '/docs/console',
             },
           ],
         },
@@ -104,16 +118,8 @@ const config: Config = {
           title: 'Community',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            },
-            {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
               label: 'X',
-              href: 'https://x.com/docusaurus',
+              href: 'https://x.com/supportiumai',
             },
           ],
         },
@@ -126,12 +132,20 @@ const config: Config = {
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://github.com/supportium/docs',
+            },
+            {
+              label: 'Supportium',
+              href: 'https://supportium.ai',
+            },
+            {
+              label: 'Supportium Console',
+              href: 'https://console.supportium.ai',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Supportium, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Supportium. Built with Docusaurus.`,
     },
     prism: {
       theme: prismThemes.github,
