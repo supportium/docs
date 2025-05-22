@@ -76,9 +76,9 @@ const config: Config = {
       items: [
         {
           type: 'docSidebar',
-          sidebarId: 'tutorialSidebar',
-          label: 'Repo Tutorial',
+          sidebarId: 'docs',
           position: 'left',
+          label: 'Documentation',
         },
         {
           type: 'docSidebar',
@@ -105,8 +105,8 @@ const config: Config = {
           title: 'Docs',
           items: [
             {
-              label: 'Repo Tutorial',
-              to: '/docs/repo-tutorial',
+              label: 'Documentation',
+              to: '/docs',
             },
             {
               label: 'Console',
@@ -145,7 +145,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Supportium. Built with Docusaurus.`,
+      copyright: `Copyright ${new Date().getFullYear()} Supportium. Built with Docusaurus.`,
     },
     prism: {
       theme: prismThemes.github,
