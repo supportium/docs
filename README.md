@@ -39,28 +39,3 @@ $ GIT_USER=<Your GitHub username> yarn deploy
 ```
 
 If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
-
-
-
-```bash
-[INFO] Inside that directory, you can run several commands:
-
-  `npm start`
-    Starts the development server.
-
-  `npm run build`
-    Bundles your website into static files for production.
-
-  `npm run serve`
-    Serves the built website locally.
-
-  `npm run deploy`
-    Publishes the website to GitHub pages.
-
-We recommend that you begin by typing:
-
-  `cd suppotium-docs`
-  `npm start`
-
-Happy building awesome websites!
-```
