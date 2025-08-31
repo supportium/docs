@@ -15,7 +15,7 @@ By the end of this guide, you'll have:
 - ✅ A working chat widget ready to deploy
 - ✅ Basic customization settings configured
 
-**⏱️ Time Required**: 2 minutes hands-on setup + 30 minutes automatic processing
+**⏱️ Time Required**: 2 minutes hands‑on setup + 30 minutes to several hours automated processing (may take longer for large/enterprise datasets; see setup page for details)
 
 ---
 
@@ -213,7 +213,7 @@ You'll receive an email notification when processing is complete.
 🎉 **Congratulations!** Your AI support agent is being created.
 
 **While You Wait:**
-1. **[Learn How to Add It to Your Website](/start-here/add-your-ai-agent-to-your-website)** - Get ready to deploy
+1. **[Learn How to Add It to Your Website](/add-your-ai-agent-to-your-website)** - Get ready to deploy
 2. **[Watch Video Tutorials](/start-here/video-tutorials)** - See examples and best practices
 3. **[Explore Advanced Features](/category/features)** - Discover what else your AI can do
 

@@ -28,7 +28,7 @@ This is the official documentation site for Supportium AI, built using [Docusaur
 ```bash
 # Clone the repository
 git clone <repository-url>
-cd docs
+cd <repository-folder>
 
 # Install dependencies
 npm install
@@ -87,7 +87,7 @@ docs/
 
 ### Main Configuration
 
-The site configuration is in `/Users/home/Downloads/docs/docusaurus.config.js` and includes:
+The site configuration is in `docusaurus.config.js` and includes:
 
 - **SEO optimizations**: Meta tags, OpenGraph, sitemap generation
 - **Performance features**: Modern font loading, optimized bundles

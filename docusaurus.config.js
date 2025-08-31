@@ -23,8 +23,8 @@ const config = {
   organizationName: 'supportium',
   projectName: 'supportium-docs',
 
-  onBrokenLinks: 'warn', // Changed to warn to allow build to complete while fixing links
-  onBrokenMarkdownLinks: 'warn',
+  onBrokenLinks: process.env.CI ? 'throw' : 'warn',
+  onBrokenMarkdownLinks: process.env.CI ? 'throw' : 'warn',
   i18n: {
     defaultLocale: 'en',
     locales: ['en'],
@@ -38,7 +38,7 @@ const config = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           routeBasePath: '/',
-          editUrl: 'https://github.com/supportium-ai/docs/edit/main/',
+          editUrl: 'https://github.com/supportium/docs/edit/main/',
           showLastUpdateTime: true,
           showLastUpdateAuthor: true,
         },

@@ -9,9 +9,9 @@ Get your AI customer support agent running faster than you might expect. Here's 
 
 ## Quick Answer
 
-**Total Time: 30-60 minutes**
+**Total Time: 30-120 minutes (up to 2 hours for Enterprise)**
 - **Your hands-on time**: 2-5 minutes
-- **Automatic processing**: 25-55 minutes (you can work on other things)
+- **Automatic processing**: 25-115 minutes (you can work on other things)
 
 ## Detailed Timeline
 
@@ -32,7 +32,7 @@ Get your AI customer support agent running faster than you might expect. Here's 
 Have your website admin login ready to speed up the installation step.
 :::
 
-### Phase 2: Automatic Processing *(25-55 minutes)*
+### Phase 2: Automatic Processing *(25-115 minutes)*
 
 **What Supportium AI does automatically:**
 - Discovers and crawls all your web pages
@@ -112,7 +112,7 @@ While you wait, Supportium AI is working hard behind the scenes:
 
 ✅ **Learn Advanced Features**
 - Explore [Human Handover](/features/human-handover) settings
-- Review [Custom Answers](/features/improve-custom-answers) options
+- Review [Custom Answers](/features/improve---custom-answers) options
 - Check out [Multi-Channel](/features/channels) integrations
 
 ### Optimize Your Content
@@ -225,9 +225,9 @@ Reach out immediately if:
 
 Once setup is complete:
 
-1. **[Test Your Agent](/start-here/create-your-ai-support-agent#step-4-test-your-agent)** - Verify everything works perfectly
+1. **[Test Your Agent](/create-your-ai-support-agent#step-4-test-your-agent)** - Verify everything works perfectly
 2. **[Monitor Performance](/features/insights)** - Track how your AI helps customers  
-3. **[Customize Responses](/features/improve-custom-answers)** - Fine-tune specific answers
+3. **[Customize Responses](/features/improve---custom-answers)** - Fine-tune specific answers
 4. **[Set Up Integrations](/features/channels)** - Connect to Slack, Teams, or other tools
 
 :::tip **Success Tip**

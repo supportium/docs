@@ -72,7 +72,7 @@ Your AI agent delivers:
 ## Common Questions
 
 **"Will it make things up?"**  
-No. Your AI agent only provides answers based on your actual content. If it doesn't know something, it will say so and can connect customers with your human team.
+Your AI agent is designed to rely on your uploaded content and will attempt to provide accurate answers. If it cannot determine an answer from your content, it will acknowledge uncertainty and can connect customers to your human support team.
 
 **"What if it can't answer a question?"**  
 The AI agent recognizes when questions are outside its knowledge and seamlessly transfers customers to your human support team.
@@ -86,7 +86,7 @@ Accuracy depends on the quality of your source content. The AI provides response
 
 Ready to see how an AI support agent can transform your customer service?
 
-1. **[Learn About the Benefits](/start-here/what-is-an-ai-customer-support-agent/what-are-the-benefits-of-using-supportium-ai)** - Discover specific advantages for your business
+1. **[Learn About the Benefits](/start-here/what-are-the-benefits-of-using-supportium-ai)** - Discover specific advantages for your business
 2. **[Create Your AI Agent](/start-here/create-your-ai-support-agent)** - Get started with setup in just 2 minutes
 3. **[Watch Demo Videos](/start-here/video-tutorials)** - See real examples in action
 

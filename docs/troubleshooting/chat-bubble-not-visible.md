@@ -146,10 +146,12 @@ window.SupportiumAI = {
 - Errors mention blocking scripts from "supportium.ai" domain
 
 **Solution:**
-Add these domains to your Content Security Policy:
+Add these CSP directives to your existing policy (append to current directives, don't replace):
 ```
 script-src 'self' https://widget.supportium.ai;
 connect-src 'self' https://api.supportium.ai;
+frame-src https://widget.supportium.ai;
+img-src 'self' https://widget.supportium.ai data:;
 ```
 
 For WordPress users:

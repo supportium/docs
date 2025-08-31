@@ -442,20 +442,19 @@ function handleAPIError(error) {
 
 Test your integration safely:
 ```
-Base URL: https://api-sandbox.supportium.ai/v1
+Base URL: https://api.supportium.ai/v1
 ```
 
 ### API Testing Tools
 
 **Postman Collection:**
-Import our complete API collection for easy testing:
-[Download Postman Collection](https://docs.supportium.ai/postman)
+Contact support to request access to our API collection for testing. Public collection links are not currently available.
 
 **Example Environment Variables:**
 ```
 SUPPORTIUM_API_KEY=your_test_api_key
 SUPPORTIUM_AGENT_ID=agent_test_123
-BASE_URL=https://api-sandbox.supportium.ai/v1
+BASE_URL=https://api.supportium.ai/v1
 ```
 
 ### Testing Checklist

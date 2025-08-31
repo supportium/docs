@@ -55,6 +55,33 @@ Customer is connected through:
 - Support ticket creation with conversation attached
 - Phone callback request with background information
 
+### Privacy and Data Protection
+
+**⚠️ Important:** Full context must be redacted by default to protect customer privacy.
+
+**Sensitive Data to Remove:**
+- Email addresses and phone numbers
+- Social Security Numbers (SSNs)  
+- API keys and authentication tokens
+- Payment information (card numbers, bank details)
+- Health/medical data
+- Personal identifiers
+
+**Redaction-First Policy:**
+- Implement automated redaction for common PII patterns
+- Use explicit opt-in mechanism for including unredacted fields
+- Require human review for any opt-in decisions
+
+**Handover Template:**
+```
+☐ Include customer email (reason: _________)
+☐ Include phone number (reason: _________)  
+☐ Include order details (reason: _________)
+☐ Include conversation transcript (reason: _________)
+
+Selected fields have been reviewed and are necessary for: [specific business purpose]
+```
+
 ---
 
 ## Setting Up Human Handover
@@ -435,6 +462,50 @@ Receive handover events in your systems:
     "ai_summary": "Customer has billing question about double charge",
     "suggested_actions": ["refund_review", "account_audit"]
   }
+}
+```
+
+### Webhook Signature Verification
+
+For security, all webhooks must be verified using HMAC SHA-256:
+
+**Required Headers:**
+- `X-Supportium-Timestamp`: Request timestamp
+- `X-Supportium-Signature`: HMAC signature
+
+**Verification Steps:**
+1. Parse timestamp and reject requests outside 5-minute window
+2. Create signed payload: `<timestamp>.<rawRequestBody>`  
+3. Compute HMAC SHA-256 using your webhook secret
+4. Compare computed signature using constant-time comparison (e.g., `crypto.timingSafeEqual`)
+5. Reject requests with missing headers or verification failures
+6. Log verification failures without exposing secrets
+
+```javascript
+// Example verification (Node.js)
+const crypto = require('crypto');
+
+function verifyWebhook(signature, timestamp, body, secret) {
+  const now = Math.floor(Date.now() / 1000);
+  const timestampInt = parseInt(timestamp);
+  
+  // Reject old requests (5 minute window)
+  if (Math.abs(now - timestampInt) > 300) {
+    return false;
+  }
+  
+  // Create signed payload
+  const signedPayload = `${timestamp}.${body}`;
+  const expectedSignature = crypto
+    .createHmac('sha256', secret)
+    .update(signedPayload)
+    .digest('hex');
+  
+  // Constant-time comparison
+  return crypto.timingSafeEqual(
+    Buffer.from(signature),
+    Buffer.from(`sha256=${expectedSignature}`)
+  );
 }
 ```
 

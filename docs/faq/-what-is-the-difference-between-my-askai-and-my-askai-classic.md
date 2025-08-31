@@ -1,6 +1,6 @@
 ---
 id: -what-is-the-difference-between-supportium-ai-and-supportium-ai-classic
-title:  What Is The Difference Between Supportium AI And Supportium AI Classic
+title:  What is the difference between Supportium AI and Supportium AI Classic?
 ---
 
 # Supportium AI Product Information | Supportium AI Docs

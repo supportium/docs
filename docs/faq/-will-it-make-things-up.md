@@ -13,11 +13,9 @@ title:  Will It Make Things Up
 
 # Will it make things up?
 
-"Hallucinations" i.e. making things up is a big problem with AI, but you don't have to worry about it with Supportium AI.
+"Hallucinations" (making things up) are a problem with AI. Supportium AI is designed to minimize this issue.
 
-Supportium AI uses OpenAI's ChatGPT to answer your questions, based on the content that's similar to your question.
-
-By default we set Supportium AI up so it will only answer questions based on the content you upload, it will not answer any questions where the answer is not contained within the content. This is why you sometimes get an "I'm sorry, I don't know" answer.
+Supportium AI uses OpenAI's ChatGPT to answer questions based on your uploaded content. By default, Supportium AI only answers questions when the answer is contained in your uploaded content. It will not answer questions when the answer is not available in that content. In those cases, it may respond "I'm sorry, I don't know".
 
 This is for 2 reasons:
 

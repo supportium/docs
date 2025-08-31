@@ -77,7 +77,7 @@ Install the code just before the closing `</body>` tag for optimal loading perfo
 
 ### Option 2: WordPress Installation
 
-**For WordPress users** - [See detailed WordPress guide](/start-here/add-your-ai-agent-to-your-website/wordpress)
+**For WordPress users** - [See detailed WordPress guide](/start-here/add-your-ai-agent-to-your-website-wordpress)
 
 **Quick steps:**
 1. Go to **Appearance** → **Theme Editor** (or use a plugin)
@@ -86,7 +86,7 @@ Install the code just before the closing `</body>` tag for optimal loading perfo
 
 ### Option 3: Shopify Installation  
 
-**For Shopify stores** - [See detailed Shopify guide](/start-here/add-your-ai-agent-to-your-website/shopify)
+**For Shopify stores** - [See detailed Shopify guide](/start-here/add-your-ai-agent-to-your-website-shopify)
 
 **Quick steps:**
 1. Go to **Online Store** → **Themes** → **Actions** → **Edit Code**
@@ -313,9 +313,9 @@ Before making your AI agent public:
 - Monitor customer satisfaction scores
 
 ### Platform-Specific Guides
-- **[WordPress Detailed Setup](/start-here/add-your-ai-agent-to-your-website/wordpress)**
-- **[Shopify Integration](/start-here/add-your-ai-agent-to-your-website/shopify)**  
-- **[Zendesk Integration](/start-here/add-your-ai-agent-to-your-website/zendesk)**
+- **[WordPress Detailed Setup](/start-here/add-your-ai-agent-to-your-website-wordpress)**
+- **[Shopify Integration](/start-here/add-your-ai-agent-to-your-website-shopify)**  
+- **[Zendesk Integration](/start-here/add-your-ai-agent-to-your-website-zendesk)**
 
 :::info **Need Help?**
 Having installation issues? Our team is here to help:

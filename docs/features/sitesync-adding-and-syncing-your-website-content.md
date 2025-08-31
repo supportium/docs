@@ -1,6 +1,7 @@
 ---
 id: sitesync-adding-and-syncing-your-website-content
 title: SiteSync - Adding And Syncing Your Website Content
+hide_title: true
 ---
 
 # SiteSync — Adding & Syncing Your Website Content

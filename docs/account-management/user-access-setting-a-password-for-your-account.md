@@ -13,7 +13,7 @@ title: User Access Setting A Password For Your Account
 
 # Setting a Password for Your Account
 
-If you're struggling to login with emails or if you just want an easy way of sharing your Supportium AI account with others, set up a password login.
+If you have trouble logging in with an email or want others to access Supportium AI, invite them to your team and set up a password for your account.
 
 [PreviousUser access](/account-management/user-access)[NextReset login password](/account-management/user-access/reset-login-password)
 
