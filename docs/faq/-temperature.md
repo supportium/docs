@@ -25,7 +25,7 @@ Our temperatures are set to 0 to ensure you get a consistent response each time 
 
 Increasing temperature increases the variability of your responses i.e. if you ask the same question twice you will get 2 different answers.
 
-[PreviousAnswer streaming](/faq/general/answer-streaming)[NextSupportium AI vs Fine-tuning](/faq/general/my-askai-vs-fine-tuning)
+[PreviousAnswer streaming](/faq/general/answer-streaming)[NextSupportium AI vs Fine-tuning](/faq/general/supportium-ai-vs-fine-tuning)
 
 Last updated 11 months ago
 

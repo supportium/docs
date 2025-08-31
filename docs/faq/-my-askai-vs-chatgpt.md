@@ -1,5 +1,5 @@
 ---
-id: -my-askai-vs-chatgpt
+id: -supportium-ai-vs-chatgpt
 title:  Supportium AI Vs Chatgpt
 ---
 

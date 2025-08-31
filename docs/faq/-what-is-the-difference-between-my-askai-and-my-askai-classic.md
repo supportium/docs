@@ -1,5 +1,5 @@
 ---
-id: -what-is-the-difference-between-my-askai-and-my-askai-classic
+id: -what-is-the-difference-between-supportium-ai-and-supportium-ai-classic
 title:  What Is The Difference Between Supportium AI And Supportium AI Classic
 ---
 

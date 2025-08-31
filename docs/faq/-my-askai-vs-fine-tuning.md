@@ -1,5 +1,5 @@
 ---
-id: -my-askai-vs-fine-tuning
+id: -supportium-ai-vs-fine-tuning
 title:  Supportium AI Vs Fine Tuning
 ---
 

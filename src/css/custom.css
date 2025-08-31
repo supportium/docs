@@ -1,30 +1,223 @@
 /**
- * Any CSS included here will be global. The classic template
- * bundles Infima by default. Infima is a CSS framework designed to
- * work well for content-centric websites.
+ * Supportium AI Documentation Custom Styles
+ * Optimized for readability, accessibility, and brand consistency
  */
 
-/* You can override the default Infima variables here. */
+/* Brand Colors and Global Variables */
 :root {
-  --ifm-color-primary: #2e8555;
-  --ifm-color-primary-dark: #29784c;
-  --ifm-color-primary-darker: #277148;
-  --ifm-color-primary-darkest: #205d3b;
-  --ifm-color-primary-light: #33925d;
-  --ifm-color-primary-lighter: #359962;
-  --ifm-color-primary-lightest: #3cad6e;
-  --ifm-code-font-size: 95%;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  /* Supportium AI Brand Colors */
+  --ifm-color-primary: #2563eb;
+  --ifm-color-primary-dark: #1d4ed8;
+  --ifm-color-primary-darker: #1e40af;
+  --ifm-color-primary-darkest: #1e3a8a;
+  --ifm-color-primary-light: #3b82f6;
+  --ifm-color-primary-lighter: #60a5fa;
+  --ifm-color-primary-lightest: #93c5fd;
+  
+  /* Enhanced Typography */
+  --ifm-font-family-base: system-ui, -apple-system, 'Segoe UI', Roboto, Ubuntu, Cantarell, 'Noto Sans', sans-serif;
+  --ifm-font-family-monospace: 'SFMono-Regular', Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace;
+  --ifm-code-font-size: 14px;
+  --ifm-font-size-base: 16px;
+  --ifm-line-height-base: 1.6;
+  
+  /* Code and Content */
+  --docusaurus-highlighted-code-line-bg: rgba(59, 130, 246, 0.1);
+  --ifm-code-background: #f8fafc;
+  --ifm-code-border-radius: 6px;
+  --ifm-code-padding-horizontal: 0.5rem;
+  --ifm-code-padding-vertical: 0.25rem;
+  
+  /* Layout improvements */
+  --ifm-navbar-height: 60px;
+  --ifm-sidebar-width: 280px;
+  --doc-sidebar-width: 280px;
+  --ifm-container-width-xl: 1440px;
+  
+  /* Enhanced focus and interaction */
+  --ifm-link-hover-decoration: none;
+  --ifm-button-border-radius: 8px;
 }
 
-/* For readability concerns, you should choose a lighter palette in dark mode. */
+/* Dark theme optimizations */
 [data-theme='dark'] {
-  --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: #21af90;
-  --ifm-color-primary-darker: #1fa588;
-  --ifm-color-primary-darkest: #1a8870;
-  --ifm-color-primary-light: #29d5b0;
-  --ifm-color-primary-lighter: #32d8b4;
-  --ifm-color-primary-lightest: #4fddbf;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+  --ifm-color-primary: #60a5fa;
+  --ifm-color-primary-dark: #3b82f6;
+  --ifm-color-primary-darker: #2563eb;
+  --ifm-color-primary-darkest: #1d4ed8;
+  --ifm-color-primary-light: #93c5fd;
+  --ifm-color-primary-lighter: #bfdbfe;
+  --ifm-color-primary-lightest: #dbeafe;
+  
+  --docusaurus-highlighted-code-line-bg: rgba(96, 165, 250, 0.1);
+  --ifm-code-background: #1e293b;
+}
+
+/* Enhanced navbar styling */
+.navbar {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(20px);
+}
+
+.navbar__brand {
+  font-weight: 600;
+}
+
+.navbar__item.navbar__link {
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+.header-console-link {
+  background: var(--ifm-color-primary);
+  color: white !important;
+  padding: 6px 12px;
+  border-radius: 6px;
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+
+.header-console-link:hover {
+  background: var(--ifm-color-primary-dark);
+  color: white !important;
+  text-decoration: none;
+  transform: translateY(-1px);
+}
+
+/* Improved sidebar styling */
+.theme-doc-sidebar-container {
+  border-right: 1px solid var(--ifm-color-emphasis-200);
+}
+
+.theme-doc-sidebar-item-category .menu__link {
+  font-weight: 600;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: var(--ifm-color-emphasis-700);
+}
+
+.menu__link--active {
+  border-left: 3px solid var(--ifm-color-primary);
+  background: var(--ifm-color-primary-lightest);
+  font-weight: 600;
+}
+
+/* Enhanced content styling */
+.markdown > h2 {
+  border-bottom: 2px solid var(--ifm-color-emphasis-200);
+  padding-bottom: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.markdown > h3 {
+  color: var(--ifm-color-emphasis-800);
+  margin-top: 2rem;
+}
+
+/* Code block improvements */
+.theme-code-block {
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.prism-code {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+/* Enhanced admonitions */
+.alert {
+  border-radius: 8px;
+  border-left-width: 4px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.alert--info {
+  border-left-color: var(--ifm-color-primary);
+}
+
+/* Table improvements */
+.markdown table {
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.markdown th {
+  background: var(--ifm-color-emphasis-100);
+  font-weight: 600;
+  text-align: left;
+}
+
+/* Footer enhancements */
+.footer {
+  background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
+}
+
+.footer__title {
+  font-weight: 600;
+  font-size: 16px;
+  margin-bottom: 1rem;
+}
+
+/* Search styling */
+.DocSearch-Button {
+  border-radius: 8px;
+  border: 1px solid var(--ifm-color-emphasis-300);
+  transition: all 0.2s ease;
+}
+
+.DocSearch-Button:hover {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive improvements */
+@media (max-width: 768px) {
+  :root {
+    --ifm-font-size-base: 15px;
+    --ifm-navbar-height: 56px;
+  }
+  
+  .navbar__item {
+    margin: 0 0.25rem;
+  }
+  
+  .header-console-link {
+    padding: 4px 8px;
+    font-size: 14px;
+  }
+}
+
+/* Accessibility improvements */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* Focus indicators */
+*:focus-visible {
+  outline: 2px solid var(--ifm-color-primary);
+  outline-offset: 2px;
+}
+
+/* Skip to content link */
+.skip-to-content {
+  position: absolute;
+  top: -40px;
+  left: 6px;
+  background: var(--ifm-color-primary);
+  color: white;
+  padding: 8px;
+  border-radius: 4px;
+  text-decoration: none;
+  z-index: 1000;
+  transition: top 0.3s;
+}
+
+.skip-to-content:focus {
+  top: 6px;
 }

@@ -1,5 +1,5 @@
 ---
-id: -my-website-has-dynamic-content-can-i-use-my-askai
+id: -my-website-has-dynamic-content-can-i-use-supportium-ai
 title:  My Website Has Dynamic Content Can I Use Supportium AI
 ---
 

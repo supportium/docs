@@ -13,7 +13,7 @@ title: Channels Chrome Extension
 
 # Chrome Extension
 
-Agents can use our AskAI Chrome extension to get AI answers wherever they're speaking to customers.
+Agents can use our Supportium AI Chrome extension to get AI answers wherever they're speaking to customers.
 
 [PreviousHubSpot](/features/channels/hubspot)[NextZoho (SalesIQ)](/features/channels/zoho-salesiq)
 

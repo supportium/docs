@@ -1,5 +1,5 @@
 ---
-id: what-is-an-ai-customer-support-agent-what-are-the-benefits-of-using-my-askai
+id: what-is-an-ai-customer-support-agent-what-are-the-benefits-of-using-supportium-ai
 title: What Is An AI Customer Support Agent What Are The Benefits Of Using Supportium AI
 ---
 
